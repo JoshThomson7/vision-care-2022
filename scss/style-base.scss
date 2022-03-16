@@ -289,8 +289,9 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             }
 
             .book_button{
+                display: flex;
                 .book{ 
-                    display: flex; background: $white; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $secondary;
+                    display: flex; background: $white; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $secondary; margin-left: 10px;
 
                     &:hover { transition: all .4s ease; background: $primary; box-shadow: 0 3px 30px rgba(black, 0.2); transform: scale(1.03); color: $white; 
                         span{
@@ -329,9 +330,8 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             .logo {
     
                 a { display:block;
-                    img { width: 88px; align-self:center; margin: 0 auto;
-                        @include breakpoint(papabear) { width: 120px;}
-                        @include breakpoint(teenbear) { width: 80px;}
+                    img { width: 210px; align-self:center; margin: 0 auto;
+                        @include breakpoint(papabear) { width: 105px;}
                     }
                 }
             }
@@ -545,7 +545,7 @@ section {
 footer { padding: 0; position: relative;
 
     .footer__menus{
-        background: $primary;
+        background: $secondary;
 
         .max__width{
             padding: 40px 60px 20px; display:flex;
@@ -637,7 +637,7 @@ footer { padding: 0; position: relative;
         .subfooter__credits { display:flex; flex-direction: column; text-align: center; align-items: center;
 
             img{
-                width: 88px; margin-bottom: 20px;
+                width: 210px; margin-bottom: 20px;
             }
             
             p { font-size:14px; line-height:20px; color: $text;

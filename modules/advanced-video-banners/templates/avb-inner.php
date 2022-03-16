@@ -158,12 +158,6 @@ if(!empty($attachment_id)) {
                     <h1><?php echo $page_title; ?></h1>
                     <?php echo $page_banner_caption; ?>
                 </div><!-- banner__caption -->
-
-                <?php
-                    if(get_field('page_show_property_search')) {
-                        apf_search_form(true);
-                    }
-                ?>
             </div><!-- banner__width -->
 
             <div class="banner__overlay <?php echo $page_banner_overlay_opacity; ?>"></div>

@@ -31,12 +31,13 @@
             <div class="pre__header">
                 <div class="max__width">
                     <ul class="contact">
-                        <li><i class="fa fa-phone"></i><a href="tel:01463782323">01463 78 23 23</a></li>
-                        <li><i class="fa fa-envelope"></i><a href="mailto:reception@fraseroptical.co.uk">Email Us</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:0208123456">0208 123 456</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:info@vision-care.co.uk">info@vision-care.co.uk</a></li>
                     </ul>
 
                     <div class="book_button">
                         <a href="/book-appointment/" class="book">Book Appointment</a>
+                        <a href="/order-contact-lenses/" class="book">Order Contact Lenses</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +49,7 @@
                     <div class="header_logo_menu">
                         <div class="logo">
                             <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>">
-                                <img src="https://fraser-optical.twsbeta3.co.uk/wp-content/uploads/2021/07/fraser-logo-e1627306300113.jpeg" alt="<?php bloginfo('name'); ?>">
+                                <img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/vision-care-logo.png" alt="<?php bloginfo('name'); ?>">
                             </a>
                         </div><!-- logo -->
                     </div>
