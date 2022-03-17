@@ -9,7 +9,7 @@
         
         article { display: flex; align-items: center; flex:1 0 280px; position: relative; overflow: hidden;
 
-            .grid__box__image { background-size: cover; background-position: center; background-repeat: no-repeat; width: percentage(1/2); min-height: 125px; position: relative; width: 100%; transition: all .8s ease; transform: scale(1);
+            .grid__box__image { background-size: cover; background-position: center; background-repeat: no-repeat; width: percentage(1/2); min-height: 225px; position: relative; width: 100%; transition: all .8s ease; transform: scale(1); border-radius: 5px;
                 a { display: block; width: 100%; height: 100%; position: absolute; top:0; left:0;}
             }
 
@@ -18,20 +18,36 @@
                     &:hover { background: $primary;}
                 }
 
-                h3 { font-size: 22px; margin-bottom: 10px; line-height: 28px; font-weight: 700; display: flex; align-items: center;
+                h3 { font-size: 22px; margin-bottom: 10px; line-height: 28px; display: flex; align-items: center;
                     i { color: $secondary; font-size: 18px; margin-left: 10px; transform: translateX(0) translateY(-2px); transition: all .4s ease;}
                 }
+
+                p{margin-bottom: 0;}
             }
 
             // variants
+            &.content_below { 
+                flex-direction: column; min-width: 150px;
+
+                .grid__box__content{
+                    width: 100%; padding: 10px 0 0;
+
+                    h3{font-family: $boldFont;}
+
+                    @include breakpoint(teenbear){
+                        padding: 5px 0 0;
+                    }
+                }
+            }
+
             &.full { width: 100%;
-                .grid__box__image { min-height: 200px;}
-                .grid__box__content { width: 60%;}
+                .grid__box__image { min-height: 350px;}
+                .grid__box__content { width: 100%;}
             }
 
             &.half { width: percentage(1/2);
-                .grid__box__image { min-height: 170px;}
-                .grid__box__content { width: 60%;}
+                .grid__box__image { min-height: 300px;}
+                .grid__box__content { width: 100%;}
             }
 
             &.one__third { width: percentage(1/3);

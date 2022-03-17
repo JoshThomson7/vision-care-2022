@@ -33,6 +33,15 @@
 
                 </article>
 
+                <article class="footer__menu">
+                    <h5>Quick Links <span class="ion-ios-plus-empty"></span></h5>
+                    <div class="book_button">
+                        <a href="/book-appointment/" class="book">Book Appointment</a>
+                        <a href="/order-contact-lenses/" class="book">Order Contact Lenses</a>
+                        <a href="/contact/" class="book">Contact Us</a>
+                    </div>
+                </article>
+
             </div><!-- max__width -->
 
         </div><!-- footer__menus -->

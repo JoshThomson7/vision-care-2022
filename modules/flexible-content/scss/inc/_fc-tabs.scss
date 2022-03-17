@@ -32,5 +32,7 @@ Tabs
         }
     }
 
-    .tab__content { padding:20px; background:$lightgrey;}
+    .tab__content { padding:20px; background:$lightgrey;
+        p{margin: 0;}
+    }
 }

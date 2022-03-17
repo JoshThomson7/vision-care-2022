@@ -557,10 +557,6 @@ footer { padding: 0; position: relative;
                 
                 @include breakpoint(papabear) { width:100%; border-bottom: 1px $border solid;}
 
-                &.find-us{
-                    margin-bottom: 30px; border-bottom: none;
-                }
-
                 h5 { font-size: 20px; font-weight: 600; color: $white; padding-bottom:20px;
                     @include breakpoint(papabear) { padding:20px 0; cursor:pointer;}
 
@@ -577,19 +573,19 @@ footer { padding: 0; position: relative;
                     li { list-style:none; padding-bottom:10px; color: $white; display: flex; font-size: 14px;
                         @include breakpoint(papabear) { padding-bottom:10px;}
 
-                        i { font-size: 24px; color: $white; width: 22px; display: flex; justify-content: center; margin: 0px 15px 0 0;
+                        i { font-size: 20px; color: $white; width: 22px; display: flex; justify-content: center; margin: 0px 15px 0 0;
                             &:hover{
-                                color: $secondary;
+                                color: $quarternary;
                             }
                         }
 
                         img { width: 140px; margin-right: 10px;}
 
-                        a { font-size: 14px; color: $white; cursor: pointer;
+                        a { font-size: 14px; color: $white; cursor: pointer; display: flex; align-items: center;
 
                             @include breakpoint(papabear) { font-size: 16px;}
 
-                            &:hover { color: $secondary; opacity: 1;}
+                            &:hover { color: $quarternary;}
                         }
                     }
                 }
@@ -599,7 +595,11 @@ footer { padding: 0; position: relative;
                     @include breakpoint(papabear) { display: initial;}
 
                     .social-wrapper{
-                        li{ display: inline; float: left;}
+                        li{ display: inline; float: left;
+                            a{
+                                i { font-size: 24px; }
+                            }
+                        }
                     }
 
                     .contact{
@@ -612,20 +612,18 @@ footer { padding: 0; position: relative;
                     }
                 }
 
-                .contact{
-                    a{
-                        color: white; line-height: 24px;
-
-                        &:hover{
-                            color: $secondary;
+                .book_button{
+                    display: flex; flex-direction: column;
+                    .book{ 
+                        display: flex; background: $white; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $secondary; margin-bottom: 10px;
+    
+                        &:hover { transition: all .4s ease; background: $primary; box-shadow: 0 3px 30px rgba(black, 0.2); transform: scale(1.03); color: $white; 
+                            span{
+                                color: $white;
+                            }
                         }
                     }
                 }
-
-                iframe{
-                    border: 2px solid $secondary!important;
-                }
-                
             }
         }
     }
