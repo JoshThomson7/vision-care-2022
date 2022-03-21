@@ -24877,7 +24877,6 @@ Flexible Content
   display: flex;
   flex-direction: column;
   padding: 0 0 20px 0;
-  max-width: 550px;
 }
 .flexible__content .section__heading h2 {
   font-size: 30px;
@@ -26397,7 +26396,7 @@ Flexible Content
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #535353;
+  color: white;
   font-weight: 700;
   position: relative;
   right: -30px;
@@ -29112,7 +29111,7 @@ header.header .header__main .header__cta .header__menu ul li.menu-item-has-child
 }
 header.header .header__main .header__cta .header__menu ul li ul {
   position: absolute;
-  top: 100%;
+  top: 77px;
   padding: 0;
   width: 100%;
   max-width: 250px;
@@ -29461,6 +29460,9 @@ footer .footer__menus .max__width article ul li a {
 }
 footer .footer__menus .max__width article ul li a:hover {
   color: #0f7296;
+}
+footer .footer__menus .max__width article ul li .sub-menu {
+  display: none !important;
 }
 footer .footer__menus .max__width article.social {
   display: flex;

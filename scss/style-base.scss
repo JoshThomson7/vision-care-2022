@@ -371,7 +371,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                             }
                         }
             
-                        ul { position:absolute; top:100%; padding:0; width:100%; max-width:250px; background: #fff; z-index: 3; text-align: left; padding: 10px; display: none; flex-direction: column; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0;
+                        ul { position:absolute; top: 77px; padding:0; width:100%; max-width:250px; background: #fff; z-index: 3; text-align: left; padding: 10px; display: none; flex-direction: column; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0;
 
                             li { margin:0; border-top:none;
 
@@ -586,6 +586,10 @@ footer { padding: 0; position: relative;
                             @include breakpoint(papabear) { font-size: 16px;}
 
                             &:hover { color: $quarternary;}
+                        }
+
+                        .sub-menu{
+                            display: none!important;
                         }
                     }
                 }
