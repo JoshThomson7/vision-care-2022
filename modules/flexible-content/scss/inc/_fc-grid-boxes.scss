@@ -14,11 +14,11 @@
             }
 
             .grid__box__content { width: percentage(1/2); padding: 0 10px; display: flex; flex-direction: column; height: 100%;
-                a.button { margin-top: 20px; background: $text; color: #fff; padding: 8px 20px; align-self: flex-start;
+                a.button { margin-top: 20px; background: $secondary; color: #fff; padding: 8px 20px; align-self: flex-start; border-radius: 5px;
                     &:hover { background: $primary;}
                 }
 
-                h3 { font-size: 22px; margin-bottom: 10px; line-height: 28px; display: flex; align-items: center;
+                h3 { font-size: 22px; margin-bottom: 10px; line-height: 28px; display: flex; align-items: center; color: $secondary;
                     i { color: $secondary; font-size: 18px; margin-left: 10px; transform: translateX(0) translateY(-2px); transition: all .4s ease;}
                 }
 
@@ -88,7 +88,8 @@
                     background: linear-gradient(to bottom, rgba($primary,0.5) 0%,rgba($primary,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
                     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#d9082d35',GradientType=0 ); /* IE6-9 */
 
-                    h3, p { color: $white; margin: 0;}
+                    p { color: $white; margin: 0;}
+                    h3{color: $white; margin-bottom: 20px;}
                     p { max-width: 335px; font-size: 16px; line-height: 22px; color: rgba(white, 0.8);
                         // &:before { content: ""; display: block; height: 3px; background: $secondary; max-width: 100px; margin: 10px 0 15px;}
                     }

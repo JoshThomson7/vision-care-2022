@@ -33,7 +33,7 @@
                     .stars {
                         @include breakpoint(mamabear) { margin-bottom:10px;}
 
-                        span { color:$primary; font-size:25px;}
+                        span { color:$secondary; font-size:25px;}
                     }
                 }
 

@@ -25003,7 +25003,10 @@ Flexible Content
   line-height: 30px;
 }
 .flexible__content p a {
-  color: #535353;
+  color: #0cb7fe;
+}
+.flexible__content p strong {
+  font-family: "Museo 700";
 }
 .flexible__content ul, .flexible__content ol {
   padding: 0 0 0 25px;
@@ -25120,6 +25123,12 @@ Flexible Content
 .flexible__content .fc_buttons .buttons__wrap.align-right a {
   margin-left: 20px;
 }
+.flexible__content .fc_free_text a {
+  color: #0cb7fe;
+}
+.flexible__content .fc_free_text a:hover {
+  color: #5ecaf2;
+}
 @media (max-width: 1024px) {
   .flexible__content .fc_feature {
     padding-left: 10px !important;
@@ -25141,6 +25150,7 @@ Flexible Content
   color: #FFFFFE;
   padding: 12px 22px;
   background: #0cb7fe;
+  border-radius: 5px;
 }
 .flexible__content .fc_feature .fc_feature_wrapper .feature__image .feature__action .arrow__link i,
 .flexible__content .fc_feature .fc_feature_wrapper .feature__text .feature__action .arrow__link i {
@@ -26577,6 +26587,7 @@ Flexible Content
   transition: all 0.4s ease;
   margin-top: 0;
   align-self: auto;
+  border-radius: 5px;
 }
 @media (max-width: 700px) {
   .flexible__content .fc_cta .cta__wrapper a {
@@ -26660,10 +26671,11 @@ Flexible Content
 }
 .flexible__content .fc_grid_boxes .grid__boxes__wrapper article .grid__box__content a.button {
   margin-top: 20px;
-  background: #4c4b4f;
+  background: #0cb7fe;
   color: #fff;
   padding: 8px 20px;
   align-self: flex-start;
+  border-radius: 5px;
 }
 .flexible__content .fc_grid_boxes .grid__boxes__wrapper article .grid__box__content a.button:hover {
   background: #535353;
@@ -26674,6 +26686,7 @@ Flexible Content
   line-height: 28px;
   display: flex;
   align-items: center;
+  color: #0cb7fe;
 }
 .flexible__content .fc_grid_boxes .grid__boxes__wrapper article .grid__box__content h3 i {
   color: #0cb7fe;
@@ -26783,9 +26796,13 @@ Flexible Content
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00ffffff", endColorstr="#d9082d35",GradientType=0 );
   /* IE6-9 */
 }
-.flexible__content .fc_grid_boxes .grid__boxes__wrapper article.overlay .grid__box__content h3, .flexible__content .fc_grid_boxes .grid__boxes__wrapper article.overlay .grid__box__content p {
+.flexible__content .fc_grid_boxes .grid__boxes__wrapper article.overlay .grid__box__content p {
   color: #FFFFFE;
   margin: 0;
+}
+.flexible__content .fc_grid_boxes .grid__boxes__wrapper article.overlay .grid__box__content h3 {
+  color: #FFFFFE;
+  margin-bottom: 20px;
 }
 .flexible__content .fc_grid_boxes .grid__boxes__wrapper article.overlay .grid__box__content p {
   max-width: 335px;
@@ -26890,7 +26907,7 @@ Flexible Content
   }
 }
 .flexible__content .fc_testimonials .testimonials__wrapper article .test_content .testimonial__meta .stars span {
-  color: #535353;
+  color: #0cb7fe;
   font-size: 25px;
 }
 .flexible__content .fc_testimonials .testimonials__wrapper article .test_content .video-wrapper {
@@ -28979,6 +28996,7 @@ header.header .pre__header .max__width .book_button .book {
   border: none;
   color: #0cb7fe;
   margin-left: 10px;
+  border-radius: 5px;
 }
 header.header .pre__header .max__width .book_button .book:hover {
   transition: all 0.4s ease;
@@ -29506,6 +29524,7 @@ footer .footer__menus .max__width article .book_button .book {
   border: none;
   color: #0cb7fe;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 footer .footer__menus .max__width article .book_button .book:hover {
   transition: all 0.4s ease;

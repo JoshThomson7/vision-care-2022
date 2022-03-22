@@ -16,14 +16,13 @@ if($display_format == 'grid' && get_sub_field('testimonials_carousel')) {
 }
 
 // Prepare query
-$pages = $wp_query->max_num_pages;
+//$pages = $wp_query->max_num_pages;
 $testimonials = new WP_Query(array(
     'post_type'         => 'testimonial',
     'post_status'       => 'publish',
     'orderby'           => $order_by,
     'order'             => 'asc',
-    'posts_per_page'    => $posts_per_page,
-    'paged'             => $paged
+    'posts_per_page'    => $posts_per_page
 ));
 
 echo '<div class="testimonials__wrapper '.$display_format.'">';
@@ -74,7 +73,7 @@ while($testimonials->have_posts()) : $testimonials->the_post();
 
             <div class="testim__content">
                 <p><?php if(get_sub_field('testimonials_display_format') === 'grid') { echo trunc(get_field('testim_quote'), 25); } else { the_field('testim_quote'); } ?></p>
-                <h5><?php the_field('testim_name'); ?></h5>
+                <!-- <h5><?php the_field('testim_name'); ?></h5> -->
             </div><!-- testim__content -->
         </div>
     </article>

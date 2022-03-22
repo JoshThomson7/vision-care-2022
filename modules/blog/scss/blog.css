@@ -466,12 +466,6 @@ body.blog .blog__wrapper {
   flex-wrap: wrap;
   justify-content: space-between;
   overflow: auto;
-  padding-top: 90px;
-}
-@media (max-width: 900px) {
-  body.blog .blog__wrapper {
-    padding-top: 30px;
-  }
 }
 body.blog .blog__wrapper .max__width .blog__single__wrapper {
   display: flex;

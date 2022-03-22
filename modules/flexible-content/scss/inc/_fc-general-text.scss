@@ -9,7 +9,9 @@ h5 { line-height: 26px; font-size: 20px;}
 h6 { line-height: 24px; font-size: 18px;}
 
 p { font-size: 17px; color: $text; margin-bottom: 30px; line-height: 30px;
-    a { color: $primary; }
+    a { color: $secondary; }
+
+    strong{font-family: $boldFont;}
 }
 
 ul,  ol {
