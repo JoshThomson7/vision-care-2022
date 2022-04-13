@@ -15,6 +15,7 @@ Feature
     .fc_feature_wrapper { display:flex; flex-wrap:wrap; align-items: center; position: relative;
 
         .feature__image,
+        .feature__iframe,
         .feature__text { width:percentage(1/2);
 
             .feature__action{

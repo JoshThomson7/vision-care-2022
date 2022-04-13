@@ -28,10 +28,12 @@ if(get_sub_field('feature_image_align') == 'right') {
 
 // Tab
 $new_tab = '';
-
 if(get_sub_field('feature_new_tab')) {
     $new_tab = 'target="_blank"';
 }
+
+// iFrame
+$iframe = (get_sub_field('feature_iframe_code'));
 
 // Video
 $feature_img_video = '';
@@ -41,11 +43,20 @@ if(get_sub_field('feature_video_id')) {
 ?>
 
 <div class="fc_feature_wrapper<?php echo $feature_img_align; ?>">
+
+    <?php if($iframe):?>
+        <div class="feature__iframe">
+            <?php echo $iframe; ?>
+        </div>
+    <?php else: ?>
+
     <div class="feature__image<?php echo $feature_img_bg; ?>">
         <?php echo $feature_img_video; ?>
         <img src="<?php echo $feature_img['url']; ?>" alt="" />
         <?php if(get_sub_field('feature_video_id')): ?><div class="feature__video-overlay"></div><?php endif; ?>
     </div><!-- feature__image -->
+
+    <?php endif; ?>
 
     <div class="feature__text">
         <?php if(get_sub_field('feature_heading')): ?><h3><?php the_sub_field('feature_heading') ?></h3><?php endif; ?>

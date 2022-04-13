@@ -291,11 +291,11 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             .book_button{
                 display: flex;
                 .book{ 
-                    display: flex; background: $white; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $secondary; margin-left: 10px; border-radius: 5px;
+                    display: flex; background: $primary; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $white; margin-left: 10px; border-radius: 5px;
 
-                    &:hover { transition: all .4s ease; background: $primary; box-shadow: 0 3px 30px rgba(black, 0.2); transform: scale(1.03); color: $white; 
+                    &:hover { transition: all .4s ease; background: $white; box-shadow: 0 3px 30px rgba(black, 0.2); transform: scale(1.03); color: $primary; 
                         span{
-                            color: $white;
+                            color: $primary;
                         }
                     }
                 }

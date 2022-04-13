@@ -25142,10 +25142,12 @@ Flexible Content
   position: relative;
 }
 .flexible__content .fc_feature .fc_feature_wrapper .feature__image,
+.flexible__content .fc_feature .fc_feature_wrapper .feature__iframe,
 .flexible__content .fc_feature .fc_feature_wrapper .feature__text {
   width: 50%;
 }
 .flexible__content .fc_feature .fc_feature_wrapper .feature__image .feature__action .arrow__link,
+.flexible__content .fc_feature .fc_feature_wrapper .feature__iframe .feature__action .arrow__link,
 .flexible__content .fc_feature .fc_feature_wrapper .feature__text .feature__action .arrow__link {
   color: #FFFFFE;
   padding: 12px 22px;
@@ -25153,6 +25155,7 @@ Flexible Content
   border-radius: 5px;
 }
 .flexible__content .fc_feature .fc_feature_wrapper .feature__image .feature__action .arrow__link i,
+.flexible__content .fc_feature .fc_feature_wrapper .feature__iframe .feature__action .arrow__link i,
 .flexible__content .fc_feature .fc_feature_wrapper .feature__text .feature__action .arrow__link i {
   color: #FFFFFE;
 }
@@ -28988,25 +28991,25 @@ header.header .pre__header .max__width .book_button {
 }
 header.header .pre__header .max__width .book_button .book {
   display: flex;
-  background: #FFFFFE;
+  background: #535353;
   align-self: flex-start;
   transition: all 0.4s ease;
   padding: 12px 30px;
   cursor: pointer;
   border: none;
-  color: #0cb7fe;
+  color: #FFFFFE;
   margin-left: 10px;
   border-radius: 5px;
 }
 header.header .pre__header .max__width .book_button .book:hover {
   transition: all 0.4s ease;
-  background: #535353;
+  background: #FFFFFE;
   box-shadow: 0 3px 30px rgba(0, 0, 0, 0.2);
   transform: scale(1.03);
-  color: #FFFFFE;
+  color: #535353;
 }
 header.header .pre__header .max__width .book_button .book:hover span {
-  color: #FFFFFE;
+  color: #535353;
 }
 header.header .header__main {
   position: relative;
