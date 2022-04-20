@@ -946,3 +946,14 @@ footer { padding: 0; position: relative;
         }
     }
 }
+
+.form-container{
+	display: flex; justify-content: center;
+    @include breakpoint(mamabear){
+        flex-direction: column;
+    }
+
+    .form-left, .form-right{
+        width: auto; padding: 20px;
+    }
+}

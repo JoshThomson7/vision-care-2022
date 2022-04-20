@@ -25073,7 +25073,7 @@ Flexible Content
 .flexible__content .wpcf7 form p input:not([type=submit]), .flexible__content .wpcf7 form p textarea, .flexible__content .wpcf7 form p select {
   padding: 15px;
   margin: 0 0 10px 0;
-  border: 1px solid #f1f5f7;
+  border: 1px solid #535353;
   width: 100%;
   font-size: 16px;
   color: #999;
@@ -25087,6 +25087,8 @@ Flexible Content
   border: none;
   width: 100%;
   font-size: 17px;
+  justify-content: center;
+  text-transform: uppercase;
 }
 .flexible__content .fc_buttons .buttons__wrap {
   display: flex;
@@ -31148,4 +31150,18 @@ footer .subfooter .subfooter__credits p.credit a {
   border: 0;
   height: auto !important;
   transition: all 0.3s ease-in-out;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  .form-container {
+    flex-direction: column;
+  }
+}
+.form-container .form-left, .form-container .form-right {
+  width: auto;
+  padding: 20px;
 }
