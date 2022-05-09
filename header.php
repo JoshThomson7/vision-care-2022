@@ -31,7 +31,9 @@
             <div class="pre__header">
                 <div class="max__width">
                     <ul class="contact">
-                        <li><i class="fa fa-phone"></i><a href="tel:0208123456">0208 123 456</a></li>
+                        <li>
+                            <?php wp_nav_menu(array('menu' => 'Phone List', 'container' => false)); ?>
+                        </li>
                         <li><i class="fa fa-envelope"></i><a href="mailto:info@vision-care.co.uk">info@vision-care.co.uk</a></li>
                     </ul>
 

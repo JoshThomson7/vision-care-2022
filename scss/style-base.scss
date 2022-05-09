@@ -159,7 +159,7 @@ body { font-family:$primaryFont; font-size:$baseFontSize; font-weight: 500; colo
 a {
     &:hover { transition:all .3s ease;}
 
-    strong{ font-weight: 600;}
+    // strong{ font-weight: 600;}
 }
 
 /* Wrap */
@@ -251,7 +251,7 @@ a.button, button.button, button, input[type=submit], input[type=button] { displa
 header.header { width:100%; transition: top .3s ease; position: sticky; z-index: 999999999; top: 0;
 
     .pre__header{
-        padding: 10px 0; background: $secondary;
+        background: $secondary;
 
         .max__width{
             display: flex; justify-content: space-between; align-items: center;
@@ -263,7 +263,42 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                 @include breakpoint(teenbear) {display: none;}
     
                 li{
-                    padding-left: 20px; display: flex; align-items: center;
+                    display: flex; align-items: center;
+
+                    ul {
+                        li{
+                            padding: 25px 30px 25px 0;
+
+                            &:hover{
+                                ul{
+                                    position:absolute; top: 65px; padding:0; width:100%; max-width:180px; background: $primary; z-index: 3; text-align: left; padding: 10px; display: flex; flex-direction: column; align-items: center; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0; color: $white;
+                                }
+                            }
+
+                            ul{
+                                display: none;
+
+                                li { margin:0; border-top:none; padding: 0;
+
+                                    a { padding: 10px 0; color: $white!important;
+                                        &:hover{color: $secondary;}
+                                    }
+                
+                                    &.current-menu-item {
+                                        a { color: $primary; display: block; border-bottom: none;
+                                            &:after { display: none;}
+                                        }
+                                    }
+                
+                                    &:hover {
+                                        &>a { color: $secondary!important; border-bottom:none; opacity: 1;}
+                                    }
+                
+                                    ul { top:0; left:100%; background:rgba($primary, 0.9);}
+                                }
+                            }
+                        }
+                    }
     
                     i{color: $white; margin-right: 7px; font-size: 22px;}
     
@@ -291,13 +326,9 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             .book_button{
                 display: flex;
                 .book{ 
-                    display: flex; background: $primary; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $white; margin-left: 10px; border-radius: 5px;
+                    display: flex; background: $primary; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $white; margin-left: 10px; border-radius: 5px; text-align: center;
 
-                    &:hover { transition: all .4s ease; background: $white; box-shadow: 0 3px 30px rgba(black, 0.2); transform: scale(1.03); color: $primary; 
-                        span{
-                            color: $primary;
-                        }
-                    }
+                    &:hover { transition: all .4s ease; background: darken($primary, 15%); box-shadow: 0 3px 30px rgba(black, 0.2); }
                 }
             }
         }
@@ -331,7 +362,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
     
                 a { display:block;
                     img { width: 210px; align-self:center; margin: 0 auto;
-                        @include breakpoint(papabear) { width: 105px;}
+                        @include breakpoint(papabear) { width: 175px;}
                     }
                 }
             }
@@ -557,7 +588,7 @@ footer { padding: 0; position: relative;
                 
                 @include breakpoint(papabear) { width:100%; border-bottom: 1px $border solid;}
 
-                h5 { font-size: 20px; font-weight: 600; color: $white; padding-bottom:20px;
+                h5 { font-size: 20px; color: $white; padding-bottom:20px;
                     @include breakpoint(papabear) { padding:20px 0; cursor:pointer;}
 
                     span { display:none; float:right; font-size:30px; position:relative; top:-6px;
@@ -619,13 +650,9 @@ footer { padding: 0; position: relative;
                 .book_button{
                     display: flex; flex-direction: column;
                     .book{ 
-                        display: flex; background: $white; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $secondary; margin-bottom: 10px; border-radius: 5px;
+                        display: flex; background: $primary; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $white; margin-bottom: 10px; border-radius: 5px; text-align: center;
     
-                        &:hover { transition: all .4s ease; background: $primary; box-shadow: 0 3px 30px rgba(black, 0.2); transform: scale(1.03); color: $white; 
-                            span{
-                                color: $white;
-                            }
-                        }
+                        &:hover { transition: all .4s ease; background: darken($primary, 15%); box-shadow: 0 3px 30px rgba(black, 0.2);}
                     }
                 }
             }
@@ -682,11 +709,11 @@ footer { padding: 0; position: relative;
                     margin-bottom: 20px;
         
                     h3{
-                        font-size: 28px; color: $primary; font-weight: 600;
+                        font-size: 28px; color: $primary;
                     }
 
                     h5{
-                        font-size: 18px; color: $primary; font-weight: 400;
+                        font-size: 18px; color: $primary;
                     }
         
                     p{
@@ -700,7 +727,7 @@ footer { padding: 0; position: relative;
                         margin-bottom: 10px;
         
                         h5{
-                            color: $primary; font-weight: 600; padding: 10px 0;
+                            color: $primary; padding: 10px 0;
                         }
         
                     }
@@ -746,7 +773,7 @@ footer { padding: 0; position: relative;
                         margin-bottom: 10px;
         
                         h5{
-                            color: $primary; font-weight: 600; padding: 10px 0;
+                            color: $primary; padding: 10px 0;
                         }
         
                     }
@@ -808,7 +835,7 @@ footer { padding: 0; position: relative;
                     }
 
                     h3{
-                        font-size: 28px; color: $primary; font-weight: 600; margin-bottom: 20px; 
+                        font-size: 28px; color: $primary; margin-bottom: 20px; 
                     }
 
                     .social{
