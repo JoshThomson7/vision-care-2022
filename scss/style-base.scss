@@ -271,7 +271,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
 
                             &:hover{
                                 ul{
-                                    position:absolute; top: 65px; padding:0; width:100%; max-width:180px; background: $primary; z-index: 3; text-align: left; padding: 10px; display: flex; flex-direction: column; align-items: center; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0; color: $white;
+                                    position:absolute; top: 65px; padding:0; width:100%; max-width:250px; background: $primary; z-index: 3; text-align: left; padding: 10px; display: flex; flex-direction: column; align-items: center; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0; color: $white;
                                 }
                             }
 
