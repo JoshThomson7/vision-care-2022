@@ -24155,7 +24155,7 @@ section.banners .banner__bg__img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 500px;
   position: absolute;
   top: 0;
   left: 0;
@@ -28827,12 +28827,13 @@ a.button, button.button, button, input[type=submit], input[type=button] {
   background: #0cb7fe;
   align-self: flex-start;
   transition: all 0.4s ease;
-  padding: 18px 40px 18px;
+  padding: 12px 30px;
   cursor: pointer;
   border: none;
+  border-radius: 5px;
 }
 a.button span, button.button span, button span, input[type=submit] span, input[type=button] span {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   color: #FFFFFE;
   line-height: 16px;
@@ -28948,13 +28949,7 @@ header.header .pre__header .max__width .contact {
 }
 @media (max-width: 1024px) {
   header.header .pre__header .max__width .contact {
-    margin-right: 30px;
     margin-bottom: 0;
-  }
-}
-@media (max-width: 625px) {
-  header.header .pre__header .max__width .contact {
-    display: none;
   }
 }
 header.header .pre__header .max__width .contact li {
@@ -28963,6 +28958,11 @@ header.header .pre__header .max__width .contact li {
 }
 header.header .pre__header .max__width .contact li ul li {
   padding: 25px 30px 25px 0;
+}
+@media (max-width: 625px) {
+  header.header .pre__header .max__width .contact li ul li {
+    padding: 15px 30px 15px 30px;
+  }
 }
 header.header .pre__header .max__width .contact li ul li:hover ul {
   position: absolute;
@@ -29043,6 +29043,11 @@ header.header .pre__header .max__width .contact li.image img {
 header.header .pre__header .max__width .book_button {
   display: flex;
 }
+@media (max-width: 700px) {
+  header.header .pre__header .max__width .book_button {
+    display: none;
+  }
+}
 header.header .pre__header .max__width .book_button .book {
   display: flex;
   background: #535353;
@@ -29055,6 +29060,12 @@ header.header .pre__header .max__width .book_button .book {
   margin-left: 10px;
   border-radius: 5px;
   text-align: center;
+}
+@media (max-width: 800px) {
+  header.header .pre__header .max__width .book_button .book {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
 }
 header.header .pre__header .max__width .book_button .book:hover {
   transition: all 0.4s ease;

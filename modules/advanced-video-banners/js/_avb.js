@@ -50,9 +50,9 @@ function onPlayerReady(event) {
 jQuery(document).ready(function($) {
     $('#home_banners').lightSlider({
         item: 1,
-        loop: false,
+        loop: true,
         auto: true,
-        pause: 6000,
+        pause: 8000,
         selector: '.banner',
         easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
         controls: false,
