@@ -5,7 +5,7 @@
 *	@version 1.0
 */
 
-.asm { position:relative; overflow:hidden; min-height:200px;
+.asm { position:relative; overflow:hidden; min-height:200px; height: 100%;
     ul { position:relative; width:100%;
         li { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px $lightgrey solid; transition: all .3s ease;
 

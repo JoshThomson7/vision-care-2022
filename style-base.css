@@ -23106,6 +23106,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: 40%;
   padding: 160px 60px 0 0;
   transform: translateX(-1200px);
+  height: 100%;
 }
 @media (max-width: 900px) {
   .oc__nav .panel__left {
@@ -28483,6 +28484,7 @@ Flexible Content
   position: relative;
   overflow: hidden;
   min-height: 200px;
+  height: 100%;
 }
 .asm ul {
   position: relative;
