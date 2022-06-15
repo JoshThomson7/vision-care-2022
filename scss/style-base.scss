@@ -264,6 +264,9 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                 li{
                     display: flex; align-items: center;
 
+                    &.first{margin-left: 20px;} 
+                    &.social{ padding-right: 5px;}
+
                     ul {
                         li{
                             padding: 25px 30px 25px 0;
@@ -328,7 +331,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                 @include breakpoint(mamabear) {display: none;}
 
                 .book{ 
-                    display: flex; background: $primary; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $white; margin-left: 10px; border-radius: 5px; text-align: center;
+                    display: flex; background: $primary; align-self: flex-start; transition: all 0.4s ease; padding: 12px 25px; cursor: pointer; border: none; color: $white; margin-left: 10px; border-radius: 5px; text-align: center;
                     @include breakpoint(cousinbear) {padding: 10px 20px; font-size: 15px;}
 
                     &:hover { transition: all .4s ease; background: darken($primary, 15%); box-shadow: 0 3px 30px rgba(black, 0.2); }

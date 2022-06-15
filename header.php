@@ -35,6 +35,8 @@
                             <?php wp_nav_menu(array('menu' => 'Phone List', 'container' => false)); ?>
                         </li>
                         <li><i class="fa fa-envelope"></i><a href="mailto:info@vision-care.co.uk">info@vision-care.co.uk</a></li>
+                        <li class="first social"><a href="https://twitter.com/visioncareuk" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li class="social"><a href="https://www.facebook.com/VisioncareMedicalEyeCentre/" target="_blank"><i class="fab fa-facebook"></i></a></li> 
                     </ul>
 
                     <div class="book_button">

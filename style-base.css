@@ -28958,6 +28958,12 @@ header.header .pre__header .max__width .contact li {
   display: flex;
   align-items: center;
 }
+header.header .pre__header .max__width .contact li.first {
+  margin-left: 20px;
+}
+header.header .pre__header .max__width .contact li.social {
+  padding-right: 5px;
+}
 header.header .pre__header .max__width .contact li ul li {
   padding: 25px 30px 25px 0;
 }
@@ -29055,7 +29061,7 @@ header.header .pre__header .max__width .book_button .book {
   background: #535353;
   align-self: flex-start;
   transition: all 0.4s ease;
-  padding: 12px 30px;
+  padding: 12px 25px;
   cursor: pointer;
   border: none;
   color: #FFFFFE;
