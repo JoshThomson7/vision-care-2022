@@ -20186,14 +20186,10 @@ html body.login {
   display: flex;
   box-sizing: border-box;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$secondary+0,082d35+100 */
-  background: #0cb7fe;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #0cb7fe 0%, #0174a3 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #0cb7fe 0%, #0174a3 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #0cb7fe 0%, #0174a3 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #0cb7fe; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0cb7fe 0%, #0174a3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0cb7fe 0%, #0174a3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0cb7fe 0%, #0174a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 html .login {
   /* Logo */
@@ -23676,12 +23672,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding: 10px 30px 40px;
   text-align: center;
   height: inherit;
-  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 55%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 55%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .oc__nav__content__panel .fc_masonry .masonry__wrapper .masonry__item.feature_tall a .feat__tall__content h4 {
   font-size: 14px;
@@ -23788,12 +23781,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   opacity: 1;
   transition: all 0.4s ease;
   height: inherit;
-  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 55%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 55%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .oc__nav__content__panel .fc_masonry .masonry__wrapper .masonry__item.video a .feat__overlay span {
   font-size: 35px;
@@ -25452,14 +25442,10 @@ Flexible Content
   width: 100%;
   padding: 20px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,082d35+100&0+0,0.85+100 */
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(8, 45, 53, 0.85) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(8, 45, 53, 0.85) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(8, 45, 53, 0.85) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00ffffff", endColorstr="#d9082d35",GradientType=0 );
-  /* IE6-9 */
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(8, 45, 53, 0.85) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(8, 45, 53, 0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(8, 45, 53, 0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00ffffff", endColorstr="#d9082d35",GradientType=0 ); /* IE6-9 */
 }
 .flexible__content .fc_grid_links .grid article a .grid__link__content h3 {
   font-size: 26px;
@@ -25806,8 +25792,7 @@ Flexible Content
 }
 .flexible__content .fc_video .video-wrapper .video-responsive {
   position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
+  padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
 }
@@ -26066,7 +26051,7 @@ Flexible Content
   opacity: 1;
 }
 .flexible__content .team__popup__holder .team__popup {
-  background: white;
+  background: rgb(255, 255, 255);
   position: relative;
   transition: all 0.2s ease;
   transform: rotateX(90deg);
@@ -26797,14 +26782,10 @@ Flexible Content
   justify-content: flex-end;
   transition: all 0.8s ease;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,082d35+100&0+0,0.85+100 */
-  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0.5) 0%, rgba(83, 83, 83, 0.5) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0.5) 0%, rgba(83, 83, 83, 0.5) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(83, 83, 83, 0.5) 0%, #535353 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00ffffff", endColorstr="#d9082d35",GradientType=0 );
-  /* IE6-9 */
+  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0.5) 0%, rgba(83, 83, 83, 0.5) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0.5) 0%, rgba(83, 83, 83, 0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(83, 83, 83, 0.5) 0%, #535353 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00ffffff", endColorstr="#d9082d35",GradientType=0 ); /* IE6-9 */
 }
 .flexible__content .fc_grid_boxes .grid__boxes__wrapper article.overlay .grid__box__content p {
   color: #FFFFFE;
@@ -26930,8 +26911,7 @@ Flexible Content
 }
 .flexible__content .fc_testimonials .testimonials__wrapper article .test_content .video-wrapper .video-responsive {
   position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
+  padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
 }
@@ -27867,12 +27847,9 @@ Flexible Content
   padding: 10px 30px 40px;
   text-align: center;
   height: inherit;
-  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 55%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 55%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .flexible__content .fc_masonry .masonry__wrapper .masonry__item.feature_tall a .feat__tall__content h4 {
   font-size: 14px;
@@ -27979,12 +27956,9 @@ Flexible Content
   opacity: 1;
   transition: all 0.4s ease;
   height: inherit;
-  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 55%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 55%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(83, 83, 83, 0) 0%, rgba(83, 83, 83, 0.22) 12%, #535353 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .flexible__content .fc_masonry .masonry__wrapper .masonry__item.video a .feat__overlay span {
   font-size: 35px;
@@ -29932,12 +29906,10 @@ footer .subfooter .subfooter__credits p.credit a {
 .gform_wrapper ::-webkit-input-placeholder, .mc-wrapper ::-webkit-input-placeholder {
   color: #fff;
 }
-.gform_wrapper :-moz-placeholder, .mc-wrapper :-moz-placeholder {
-  /* Firefox 18- */
+.gform_wrapper :-moz-placeholder, .mc-wrapper :-moz-placeholder { /* Firefox 18- */
   color: #fff;
 }
-.gform_wrapper ::-moz-placeholder, .mc-wrapper ::-moz-placeholder {
-  /* Firefox 19+ */
+.gform_wrapper ::-moz-placeholder, .mc-wrapper ::-moz-placeholder { /* Firefox 19+ */
   color: #fff;
 }
 .gform_wrapper :-ms-input-placeholder, .mc-wrapper :-ms-input-placeholder {
@@ -30936,9 +30908,7 @@ footer .subfooter .subfooter__credits p.credit a {
   font-weight: bold;
   font-size: 150%;
 }
-.gform_wrapper form .gfield_error {
-  /*padding:$form-space; border:1px solid #eee; border-left-width:5px; border-left-color:#ef736f;*/
-}
+.gform_wrapper form .gfield_error { /*padding:$form-space; border:1px solid #eee; border-left-width:5px; border-left-color:#ef736f;*/ }
 .gform_wrapper form .gfield_error > label,
 .gform_wrapper form .gfield_error .validation_message {
   color: #ef736f;
