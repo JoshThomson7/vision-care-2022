@@ -10,6 +10,7 @@
 
     <script src="https://pxportal.xeyex.co.uk/ob/x3edabac23446401cfg"></script>
     <script src="https://pxportal.xeyex.co.uk/ob/x3edabac23446401"></script>
+    <script src="https://kit.fontawesome.com/f6f8cbf1c2.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -35,7 +36,7 @@
                             <?php wp_nav_menu(array('menu' => 'Phone List', 'container' => false)); ?>
                         </li>
                         <li><i class="fa fa-envelope"></i><a href="mailto:info@vision-care.co.uk">info@vision-care.co.uk</a></li>
-                        <li class="first social"><a href="https://twitter.com/visioncareuk" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li class="first social"><a href="https://twitter.com/visioncareuk" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
                         <li class="social"><a href="https://www.facebook.com/VisioncareMedicalEyeCentre/" target="_blank"><i class="fab fa-facebook"></i></a></li> 
                     </ul>
 
