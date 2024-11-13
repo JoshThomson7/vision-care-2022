@@ -43,6 +43,7 @@
                     <div class="book_button">
                         <a href="/book-appointment/" class="book">Book Appointment</a>
                         <a href="/order-contact-lenses/" class="book">Order Contact Lenses</a>
+                        <a href="/contact/" class="book christmas" style="background: red!important;">Christmas Opening Times</a>
                     </div>
                 </div>
             </div>
